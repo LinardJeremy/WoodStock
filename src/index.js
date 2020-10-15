@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Navbar from './App';
 import * as serviceWorker from './serviceWorker';
 
+const listes = ['Wood','About','Furniture','Shop'];
+const elementnav = <Navbar list={listes} />
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  elementnav,
   document.getElementById('root')
 );
 
