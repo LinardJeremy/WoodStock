@@ -5,7 +5,7 @@ import Navbar from './App';
 import * as serviceWorker from './serviceWorker';
 
 const listes = ['Wood','About','Furniture','Shop'];
-const elementnav = <Navbar list={listes} />
+const elementnav = <Navbar list={listes} title="Wood" />
 ReactDOM.render(
   elementnav,
   document.getElementById('root')

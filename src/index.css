@@ -1,11 +1,16 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+}
+html{
+  margin: 0;
+  padding: 0;
 }
 
 code {
@@ -15,8 +20,37 @@ code {
 .menu {
   display: flex;
   list-style: none;
+  margin-left: 20rem;
+  margin-top: 0;
+  position: relative;
+  color: white;
   
 }
 .menu li{
   margin-left: 10rem;
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+.menu li a:visited{
+  text-decoration: none;
+}
+.menu li a:link {
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+}
+.backgroundImg{
+  margin-top: 0;
+  width: 100%;
+  height: 30rem;
+  position: relative;
+  background: url(img/floor.jpg) left no-repeat ,
+  url(img/heart.jpg) right no-repeat;
+  background-size: 50% 100%;
+
+}
+.titleSite{
+  color: white;
 }
